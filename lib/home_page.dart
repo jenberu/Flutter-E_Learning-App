@@ -19,15 +19,15 @@ class _HomePageState extends State<HomePage> {
       'grade 9 Mathimatics ',
       'grade 9 physics',
       'grade 9 English',
-      ' grade 9 History',
+      'grade 9 History',
       'grade 9 Geography',
       'grade 9 Biology',
       'grade 9 civics'
     ],
     'Grade 10': [
-      'grade 10 Mathimatics ',
+      'grade 10 Mathimatics',
       'grade 10 Physics',
-      'grade 10 Chemistry',
+      'grade 10 chemistry',
       'grade 10 Biology',
       'grade 10 Geography',
       'grade 10 civics'
@@ -140,7 +140,6 @@ class _HomePageState extends State<HomePage> {
                 itemCount: courses.length,
                 itemBuilder: (context, index) {
                   return CourseTile(
-                    
                       courseName: courses[index], downloadIcon: Icons.download);
                 },
               ),

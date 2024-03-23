@@ -11,6 +11,7 @@ class ElearningApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'E-Learning App',
       theme: ThemeData(
         // buttonColor: Colors.red, // Color of a RaisedButton
